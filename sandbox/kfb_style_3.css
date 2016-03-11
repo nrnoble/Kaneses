@@ -1,0 +1,196 @@
+
+.column-left{ float: left; width: 15%; }
+.column-right{ float: right; width: 15%; }
+.column-center{ display: inline-block; width: 70%; }
+   /*Logo in menubar at the top of each page*/
+    .kfb_logo
+    {
+       /* kfb_logo_higher_res.png */
+        border-width: 0px;
+        width: auto;
+        height: 90px;
+        /* box-shadow: 2px 2px 2px #DE2626 */
+    }
+
+
+/*.services
+   {
+    background-color: orange;
+   }
+*/
+body
+{
+    font-family: verdana;
+    
+}
+
+a:hover
+{
+    background-color: yellow;
+     
+    
+    /*    color:blue;
+     *  
+     *    font-size: 14pt;
+     *    font-weight: bold;
+    */
+}
+
+
+
+    .kfb_paypal
+   {
+    text-align:center;
+    margin-top: 25px;
+   }
+    
+    .kfb_sidebar
+    {
+        background-color: #daf1da; /*#c7ebc7; /*white;*/
+        color: black;      
+        margin-top: 10px;
+        box-shadow: 5px 5px 5px #a1dda1; /*#004d00; /*#DE2626; */
+        border: solid;
+        border-width: 1px;
+        padding: 5px;
+    }
+    
+     /* Added by Neal */
+    .kfb_sidebar h3
+    {
+        color: black;
+        
+    }
+    
+    
+    /* Added by Neal */
+    .kfb_sidebar_title
+    {
+        text-align: center;  /* added by Kandis*/
+        color: #004d00; /*blue;*/
+        
+    }
+   
+    .kfb_topmenubar
+    {
+        background-color: #2d862d; /* #004d00;*/ 
+        border-width: 0px;
+        padding: 10px;
+        box-shadow:  1px 2px 3px #004d00; /*#DE2626;*/   
+    }
+            
+   h1
+   {
+    color: black;
+    }
+    
+    .kfb_fullpage
+    {
+        
+   /* background-color: #4d9900; */
+   /*    background-image: url("/images/1225150901c.jpg"); */
+    /*    border-width: 1px; */
+    }
+    
+    .kfb_title
+    {
+       text-align: center;
+       border-width: 1px;
+     /*  background-image: url("/images/1225150901c.jpg"); */     
+       background-color: #daf1da; /*#a1dda1; #c7ebc7; #ceff99;  #2d862d;  white*/
+       color: black;
+    }
+ 
+.kfb_form
+{
+    
+        max-width: 800px; /*900px;*/
+        font-size: 12pt;
+        background-color: #daf1da; /* #ffffff;*/
+        border: solid;
+        border-width: 0px; /*1px*/
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #004d00; /*#DE2626*/
+    
+}
+    
+    
+    /* Added by Neal */ 
+    .pageblock
+    {
+        max-width: 800px; /*900px;*/
+        font-size: 12pt;
+        background-color: #daf1da; /*#ffffff;*/
+        border: solid;
+        border-width: 0px; /*1px;*/
+        text-align: left;
+        margin-top: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #004d00; /*#DE2626*/
+    }
+    
+
+    
+    
+    /* Added by Neal */ 
+    .moreinfo
+    {
+       
+        
+    }
+    
+    
+    #page
+    {
+        max-width: 800px; /*900px;*/
+        font-size: 12pt;
+        background-color: #daf1da; /*#ffffff;*/
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #004d00; /*#DE2626*/
+    }
+    
+  /*  .kfb_logo
+    {
+       
+        border-width: 1px;
+        /* box-shadow: 2px 2px 2px #DE2626 
+    }
+*/
+
+p, ul, ol, table
+    {
+    color: black;
+    }
+table, th, td {
+   border: 1px solid black;
+   padding: 5px
+}    
+
+    .kfb_background
+   {
+        /* background-color: #4d9900; */
+        background-image: url("/images/1225150901c.jpg");
+      
+   }
+    
+
+.kfb_form
+{
+    
+        max-width: 900px;
+        font-size: 12pt;
+        background-color: #ffffff;
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #004d00; /* #DE2626 */
+    
+}

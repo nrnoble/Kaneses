@@ -1,0 +1,137 @@
+
+
+/*.services
+   {
+    background-color: orange;
+   }
+*/    
+    .kfb_paypal
+   {
+    text-align:center;
+    margin-top: 25px;
+
+
+    
+   }
+    
+    
+    .kfb_sidebar
+    {
+        background-color: white;
+       
+        margin-top: 10px;
+        box-shadow: 5px 5px 5px #DE2626;
+        border: solid;
+        border-width: 1px;
+        padding: 5px;
+    }
+    
+   
+    .kfb_topmenubar
+    {
+        background-color: white;
+        border-width: 0px;
+        box-shadow:  1px 2px 3px #DE2626
+        
+        
+    }
+   
+   
+
+   
+            
+   h1
+   {
+    color: black;
+    }
+    
+    .kfb_fullpage
+    {
+        
+    background-color: #fff5e6;
+        
+        border-width: 1px;
+        
+    }
+    
+    .kfb_title
+    {
+       text-align: center;
+       border-width: 1px;
+       
+       background-color: white;
+       color: orange;
+    }
+
+.kfb_form
+{
+    
+        max-width: 900px;
+        font-size: 12pt;
+        background-color: #ffffff;
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #DE2626
+    
+}
+    
+    
+    
+    #page
+    {
+        max-width: 900px;
+        font-size: 12pt;
+        background-color: #ffffff;
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #DE2626
+    }
+    
+    .kfb_logo
+    {
+       
+        border-width: 1px;
+        /* box-shadow: 2px 2px 2px #DE2626 */
+    }
+
+
+p, ul, ol, table
+    {
+    color: black;
+    }
+table, th, td {
+   border: 1px solid black;
+   padding: 5px
+}    
+
+    .kfb_background
+   {
+        background-color: #ffcc99;
+      
+   }
+    
+
+.kfb_form
+{
+    
+        max-width: 900px;
+        font-size: 12pt;
+        background-color: #ffffff;
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #DE2626
+    
+}
+    
+
+    
+

@@ -1,0 +1,355 @@
+
+.column-left{ float: left; width: 15%; }
+.column-right{ float: right; width: 15%; }
+.column-center{ display: inline-block; width: 70%; }
+
+/*.services
+   {
+    background-color: orange;
+   }
+*/
+    body
+    {
+
+        font-family: verdana;
+
+    }
+
+    a:hover
+    {
+        background-color: orange;
+
+
+        /*    color:blue;
+         *    font-size: 14pt;
+         *    font-weight: bold;
+        */
+    }
+
+
+    /*tr:nth-child(2n-3)*/
+    /*{*/
+        /*background-color: #E0E0E0;*/
+    /*}*/
+
+
+    tr:hover
+    {
+        background-color: goldenrod !important;
+
+    }
+
+
+
+
+
+h1
+    {
+        color: black;
+    }
+
+
+    .otherPulolTable
+    {
+        color: black;
+    }
+
+
+
+
+    .otherTableThTd
+    {
+        border: 1px solid black;
+        padding: 5px
+
+    }
+
+
+    .kfb_background
+    {
+          background-color: white; /*#4d9900; */
+        /* background-image: url("kfb_images/stone-brick-wall-red-00252.jpg");       /* "/images/1225150901c.jpg"); */
+        background-attachment: fixed;
+    }
+
+    .kfb_button
+    {
+        /* to be used for changing the style of buttons */
+    }
+
+
+
+    /*Data table on Admin page*/
+    .kfb_datatable tr,th,table
+    {
+        border: 0px solid black !important;
+        padding: 5px;
+        font-family: "Calibri"; !important;
+        font-size: 12pt !important;
+        text-align: left;
+        /*list-style-type: square; */
+
+
+    }
+
+
+    .kfb_DataTableDetailedInfo
+    {
+        background-color: lightgreen;
+        border: 1px solid darkgrey !important;
+        box-shadow: 1px 1px 5px darkgrey inset;
+
+    }
+
+
+    .kfb_form
+    {
+
+        max-width: 800px; /*900px;*/
+        font-size: 12pt;
+        background-color: white; /*#daf1da; /* #ffffff;*/
+        border: solid;
+        border-width: 0px; /*1px*/
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #004d00; /*#DE2626*/
+
+    }
+
+
+
+    .kfb_fullpage
+    {
+
+        /* background-color: #4d9900; */
+        /*    background-image: url("/images/1225150901c.jpg"); */
+        /*    border-width: 1px; */
+    }
+
+
+    .kfb_form
+    {
+
+        max-width: 900px;
+        font-size: 12pt;
+        background-color: #ffffff;
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #004d00; /* #DE2626 */
+
+    }
+
+    /* had to separate these into indiviual defination
+       because for unknown reasons when grouped together
+       they cause style problems else in the site.  -Neal */
+
+    .hoursTable td
+    {
+
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+
+    }
+
+
+    .hoursTable th
+    {
+
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+
+    }
+
+
+    .hoursTable tr
+    {
+
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+
+    }
+
+
+    /*Logo in menubar at the top of each page*/
+    .kfb_logo
+    {
+       /* kfb_logo_higher_res.png */
+        border-width: 0px;
+        width: auto;
+        height: 90px;
+        /* box-shadow: 2px 2px 2px #DE2626 */
+    }
+
+
+    .kfb_menubar-button
+    {
+        color:black;
+        border-width: 3px;  /* added 2/29 */
+        border-color: black;
+        background-color:#2d862d;
+    }
+
+
+    /* Added by Neal */
+    .moreinfo
+    {
+
+
+    }
+
+
+
+    #page
+    {
+        max-width: 800px; /*900px;*/
+        font-size: 12pt;
+        background-color: white; /* #daf1da; /*#ffffff;*/
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #004d00; /*#DE2626*/
+    }
+
+
+
+    /* Added by Neal */
+    .pageblock
+    {
+        max-width: 900px; /*800px;*/
+        font-size: 12pt;
+        background-color: white; /* #daf1da; /*#ffffff;*/
+        border: solid;
+        border-width: 0px; /*1px;*/
+        text-align: left;
+        margin-top: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #004d00; /*#DE2626*/
+    }
+
+
+
+    .kfb_paypal
+    {
+        text-align:center;
+        margin-top: 25px;
+    }
+
+
+    /*quary edit box on admin page box*/
+    .kfb_queryeditbox
+    {
+        max-width: 800px;
+        max-height: inherit;
+        background-color: lightyellow;
+        font-size: 13px;
+        font-family: "Calibri" !important;
+        width: 600px;
+        height: 100px;
+        box-shadow: 1px 1px 5px darkgrey inset !important;;
+    }
+
+    .kfb_sidebar
+    {
+        background-color: white; /*#daf1da; /*#c7ebc7; /*white;*/
+        color: orange; /*black; */
+        margin-top: 10px;
+        box-shadow: 5px 5px 5px #004d00; /* #a1dda1; /*#004d00; /*#DE2626; */
+        border: solid;
+        border-width: 1px;
+        padding: 5px;
+    }
+    
+    
+     /* Added by Neal */
+    .kfb_sidebar h3
+    {
+        color: orange; /*black; */
+        
+    }
+    
+    
+    /* Added by Neal */
+    .kfb_sidebar_title
+    {
+        text-align: center;  /* added by Kandis*/
+        color: orange; /* #004d00; /*blue;*/
+        
+    }
+
+
+    .kfb_topmenubar
+    {
+        background-color: #004d00; /* #2d862d; /* #004d00;*/
+        border-width: 0px;
+        padding: 0px;
+        box-shadow:  1px 2px 3px #004d00; /*#DE2626;*/   
+    }
+
+
+    .kfb_title
+    {
+        text-align: center;
+        border-width: 1px;
+        /*  background-image: url("/images/1225150901c.jpg"); */
+        background-color: white; /* #daf1da; /*#a1dda1; #c7ebc7; #ceff99;  #2d862d;  white*/
+        color: #004d00; /*black; */
+    }
+
+
+.todo
+{
+    font-family: "Calibri", sans-serif;
+    font-size: 5px;
+    color: #053eff;
+    font-style: italic;
+
+    /*display: none;*/
+
+}
+
+p.todo:hover
+{
+    font-size: 20px !important;
+}
+
+
+
+
+    .kfb_topten
+    {
+        max-width: 500px;
+    }
+
+
+
+
+    .kfb_top10editbox
+    {
+        background-color: white;
+    }
+
+
+
+
+/* added by Kandis but not being used */
+   .volunteer_app {
+       color: orange !important;
+       text-align: center;
+
+   }
+
+
+/* added by Kandis */
+.warning {
+    color:red;
+    font-style:italic;
+}
