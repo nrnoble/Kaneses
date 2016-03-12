@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <?php include "kfb_head.php";?>
 
 <body class="no-trans  kfb_background">

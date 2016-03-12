@@ -1,25 +1,28 @@
+<?php session_start(); ?>
 <?php
 
 $id = $_POST['uid'];
-$pass = $_POST['upass'];
+$pass1 = $_POST['password'];
 
 $host = 'localhost';
 $user = 'root';
 $pass = ' ';
 
-mysql_connect($host, $user, $pass);
+$_SESSION["access"] = false;
 
-mysql_select_db('demo');
 
-$dologin = "select id,pass from user where id = $id and pass = $pass ";
-$result = mysql_query( $dologin );
-
-if($result)
+if ($id == 'kfb' && $pass1 == 'kfb')
 {
+   $_SESSION["access"] = true;
+   header("Location: kfb_administrative.php");
    echo "Successfully Logged In";
 }
 else
 {
-   echo "Wrong Id Or Password";
+   $_SESSION["access_err"] =  "Wrong Id Or Password";
+   //echo "fail<";
+   echo "user: $id<br>";
+   echo "password: $pass1<br>";
 }
 ?>
+
