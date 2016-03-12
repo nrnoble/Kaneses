@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
 <head>
 		<meta charset="utf-8">
 		<title>Kent Food Bank</title>
@@ -53,9 +55,9 @@
 	    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
 	    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
 
+        <?php include "kfb_footer.html" ?>
 
-
-	<?php include "kfb_jsfunctions.php" ?>
+		<?php include "kfb_jsfunctions.php" ?>
 
 
 
@@ -99,40 +101,11 @@
 </script>
 
 
-<!--Administraive login-->
-	<script>
-
-
-		//alert("load script test");
-
-
-		jQuery(function($) {showpopup() });
-
-
-		 function show_dialog()
-		{
-			alert("show Dialog now");
-			showpopup();
-			$( "#dialog" ).dialog({height: 350, width: 350});
-		}
-
-		 //show_dialog();
-
-//		$(function()
-//		{
-//
-//			$( "#dialog" ).dialog({height: 350, width: 350, autoOpen: true});
-//		});
-
-//		$(function()
-//		{
-//			$( "#dialog" ).dialog({height: 350, width: 350, autoOpen: false});
-//		});
-	</script>
-
-
-
 </head>
+
+<body>
+
+<?php include "kfb_login_dialog.php" ?>
 
 
 		

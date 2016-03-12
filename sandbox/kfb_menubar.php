@@ -108,7 +108,7 @@
 				<!--Changed by Kandis on 2/29-->
 				<!--<a href="index.php" class= "kfb_logo"><img style="display: inline;" id="logo_img" src="images/kfb_logo15-dropshadow5.png" class= "kfb_logo" alt="KFB logo"></a>-->
 				<div class="column-left">
-					<a href="kfb_admin_login.php" class= "kfb_logo"><img style="display: inline;" id="logo_img" src="kfb_images/kfb_logo_higher_res2.png" class= "kfb_logo" alt="KFB logo"></a>
+					<img style="display: inline;" id="logo_img" src="kfb_images/kfb_logo_higher_res2.png" class= "kfb_logo" alt="KFB logo" onclick="showpopup()">
 				</div>
 				<div class="column-center">
 					<br><h1 style="display: inline;" class = "kfb_title">Kent Food bank & Emergency Services</h1>
