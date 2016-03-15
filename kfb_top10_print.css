@@ -1,0 +1,26 @@
+@media print
+{
+  IMG.displayed
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  
+
+  h1
+  {
+   text-align:center;
+   color:orange;
+
+  }
+  
+  h5
+  {
+   text-align:center;
+   color:orange;
+   }
+  
+  }
+  

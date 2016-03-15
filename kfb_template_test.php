@@ -1,8 +1,8 @@
-<?php include "kfb_head.html" ?>
+<?php include "kfb_head.php" ?>
 
 <body class="no-trans   ">
     
-<?php include "kfb_menubar.html" ?>
+<?php include "kfb_menubar.php" ?>
  <div class="page-wrapper">
 
 			<!-- main-container start -->
@@ -13,7 +13,7 @@
 					<div class="row">
 						<!-- ================ -->
 						
-							<?php include "kfb_sidebar.html" ?>
+							<?php include "kfb_sidebar.php" ?>
 						
 						<!-- sidebar end -->
 						<!-- main start -->
@@ -51,7 +51,7 @@
 						<!-- sidebar start -->
 						<!-- ================ -->
 						
-							<?php include "kfb_sidebar.html" ?>
+							<?php include "kfb_sidebar.php" ?>
 						
 						<!-- sidebar end -->
 

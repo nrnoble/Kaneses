@@ -1,3 +1,12 @@
+<?php
+if(!isset($_SESSION))
+{
+	session_start();
+}
+else
+{
+//	$sessionID = $
+}
 <?php include "kfb_head.php" ?>
 
 <body class="no-trans   ">

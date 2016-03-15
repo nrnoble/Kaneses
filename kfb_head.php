@@ -1,4 +1,8 @@
-	<head>
+<?php if(!isset($_SESSION)) {
+	session_start();
+}?>
+<!DOCTYPE html>
+<head>
 		<meta charset="utf-8">
 		<title>Kent Food Bank</title>
 		<meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
@@ -46,31 +50,34 @@
 
 		<!--<link rel = "stylesheet" type="text/css" href="kfb_style.css">-->
 		<link rel = "stylesheet" type="text/css" href="kfb_vbg.css">
-		
-		<!--<link rel = "stylesheet" type="text/css" href="neal.css">
-		<link rel = "stylesheet" type="text/css" href="kandis.css">-->
-		  
 
-        <?php include "kfb_jsfunctions.php" ?>
+		<link rel="stylesheet" type="text/css" href="kfb_login_style_4.css">
+		<script type="text/javascript" src="kfb_login_effect.js"></script>
+	    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+	    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+
+        <?php include "kfb_footer.html" ?>
+
+		<?php include "kfb_jsfunctions.php" ?>
 
 
 
 <script type="text/javascript">
     //SetTheme("test.css");
     var debug = false;
-    DebugAlert ("Script::: getCookie(\"Theme\")",debug);
+    DebugAlert ("Header Script::: getCookie(\"Theme\")",false);
     var Theme = getCookie("Theme");
-	DebugAlert ("Script::: getCookie(\"Theme\")",debug);
-    
-    
+	DebugAlert ("Header Script::: getCookie(" + Theme + ")",debug);
+
     
     // document.getElementById("demo").innerHTML = "checking theme name " + theme;
     if (typeof(Theme) == "undefined")
     {
         DebugAlert("Script:: No theme has been set",debug);
         var ThemeFileName = "kfb_style.css";
-        
-        SetTheme(ThemeName);
+
+        SetTheme(ThemeFileName);
         setCookie("Theme", ThemeFileName);
         //document.getElementById("demo").innerHTML = "The theme is: " + Theme;
     }
@@ -83,21 +90,23 @@
 </script>
 
 	
-	<script>
-		(function(d, s, id)
-			 {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-				fjs.parentNode.insertBefore(js, fjs);
-			}
-			(document, 'script', 'facebook-jssdk'));
-	</script>
-
+<script>
+	(function(d, s, id)
+		 {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+			fjs.parentNode.insertBefore(js, fjs);
+		}
+		(document, 'script', 'facebook-jssdk'));
+</script>
 
 
 </head>
+
+
+<?php include "kfb_login_dialog.php" ?>
 
 
 		

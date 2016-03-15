@@ -1,20 +1,245 @@
 
+
+
 body
 {
     font-family: verdana;
     
 }
 
+
+/*tr:nth-child(3n-1)*/
+/*{*/
+    /*background-color: #E0E0E0;*/
+/*}*/
+
+
+tr:hover
+{
+    background-color: yellow; !important;
+
+}
+
+
+
 a:hover
 {
     background-color: yellow;
-     
-    
-    /*    color:blue;
-     *    font-size: 14pt;
-     *    font-weight: bold;
-    */
 }
+
+h1
+{
+    color: black;
+}
+
+
+
+    .otherTableThTd
+    {
+        border: 1px solid black;
+        padding: 5px
+
+    }
+
+    .kfb_background
+    {
+        background-color: #1b6d85;/*  #FFE3BD;*/ /*#FFC559*/;  /*#FF9500*/; /*#FFC559*/; /*#FFD659;*/ /*#FFC259;*/
+    /       /* background-image: url("/images/1225150901c.jpg");*/
+
+    }
+
+
+
+    .kfb_button
+    {
+        /* to be used for changing the style of buttons */
+        color: black;
+
+    }
+
+
+    .kfb_datatable tr,th,table
+    {
+        border: 0px solid black; !important;
+        padding: 5px;
+        font-family: "Calibri"; !important;
+        font-size: 12pt; !important;
+        text-align: left;
+        /*list-style-type: square; */
+        /*box-shadow: 1px 1px 5px #555 inset;*/
+
+
+    }
+
+    .boxit
+    {
+        background-color: lightgoldenrodyellow; !important;
+        box-shadow: 1px 1px 5px darkgrey inset;  !important;
+    }
+
+
+
+    .column-left{ float: left; width: 15%; }
+    .column-right{ float: right; width: 15%; }
+    .column-center{ display: inline-block; width: 70%; }
+
+
+
+    .kfb_DataTableDetailedInfo
+    {
+        border: 1px solid darkgrey; !important;
+        padding: 5px;
+        background-color: lightgoldenrodyellow;
+        box-shadow: 1px 1px 5px darkgrey inset;
+    }
+
+    .kfb_fullpage
+    {
+
+        /* background-color: #4d9900; */
+        /*    background-image: url("/images/1225150901c.jpg"); */
+        /*    border-width: 1px; */
+    }
+
+
+
+    .kfb_form
+    {
+        max-width: 900px;
+        font-size: 12pt;
+        background-color: #ffffff;
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #DE2626; /* #DE2626 */
+    }
+
+
+
+    .kfb_form
+    {
+
+        max-width: 900px; /*900px;*/
+        font-size: 12pt;
+        background-color: #ffffff; /* #ffffff;*/
+        border: solid;
+        border-width: 0px; /*1px*/
+        text-align: left;
+        margin-top: 100px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #DE2626; /*#DE2626*/
+
+    }
+
+
+
+    .hoursTable td
+    {
+
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+
+    }
+
+
+    .hoursTable th
+    {
+
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+
+    }
+
+
+
+    .hoursTable tr
+    {
+
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+
+    }
+
+
+
+
+
+
+    .map
+    {
+        background: #1FB1E6 ;
+        border: 0px solid black;
+        border-collapse:  collapse;
+        border-radius: 5px;
+        padding: 3px;
+    }
+
+
+    .kfb_login_dialog
+    {
+        /*background: #ffa31a; !important;*/
+
+        /*border-collapse: collapse;*/
+        /*border-radius: 9px;*/
+        /*padding: 3px;*/
+    }
+
+
+    .kfb_logo
+    {
+
+        border-width: 1px;
+        width: auto;
+        height: 70px;
+
+        /* box-shadow: 2px 2px 2px #DE2626 */
+    }
+
+    .kfb_logo column-left {float: left; width: 15%;}
+    .kfb_logo column-right{ float: right; width: 15%; }
+    .kfb_logo column-center{ display: inline-block; width: 70%; }
+
+    .kfb_menubar-button
+    {
+        color:green; !important;
+        /*background-color: white;*/
+
+    }
+
+    #page
+    {
+        max-width: 900px; /*900px;*/
+        font-size: 12pt;
+        background-color: #ffffff; /*#ffffff;*/
+        border: solid;
+        border-width: 1px;
+        text-align: left;
+        margin-top: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #DE2626; /*#DE2626*/
+    }
+
+
+    /* Added by Neal */
+    .pageblock
+    {
+        max-width: 900px; /*900px;*/
+        font-size: 12pt;
+        background-color: #ffffff; /*#ffffff;*/
+        border: solid;
+        border-width: 1px; /*1px;*/
+        text-align: left;
+        margin-top: 10px;
+        padding: 10px;
+        box-shadow: 3px 3px 3px #104757; /*#DE2626*/
+        color: black;
+        border-radius: 4px;
+    }
 
 
 
@@ -23,14 +248,28 @@ a:hover
     text-align:center;
     margin-top: 25px;
    }
-    
+
+
+
+    .kfb_queryeditbox
+    {
+        max-width: 600px;
+        max-height: inherit;
+        background-color: lightyellow;
+        font-size: 13px;
+        font-family: "Calibri"; !important;
+        width: 600px;
+        height: 100px;
+        box-shadow: 1px 1px 5px darkgrey inset;  !important;
+    }
+
     .kfb_sidebar
     {
         background-color: white;
         text-align: left ;
         color: black;      
         margin-top: 10px;
-        box-shadow: 5px 5px 5px orange; /*#004d00; /*#DE2626; */
+        box-shadow: 3px 3px 3px #104757; /*#004d00; /*#DE2626; */
         border: solid;
         border-width: 1px;
         padding: 5px;
@@ -51,251 +290,229 @@ a:hover
         color: Blue; 
         
     }
-   
-    .kfb_topmenubar
-    {
-        background-color: #004d00; 
-        padding: 10px;
-        box-shadow:  1px 2px 3px #DE2626; /*#DE2626;*/   
-    }
-            
-   h1
-   {
-    color: black;
-    }
-    
-    .kfb_fullpage
-    {
-        
-   /* background-color: #4d9900; */
-   /*    background-image: url("/images/1225150901c.jpg"); */
-    /*    border-width: 1px; */
-    }
-    
+
+
     .kfb_title
     {
-       text-align: center;
-       border-width: 1px;
-     /*  background-image: url("/images/1225150901c.jpg"); */     
-       background-color: white; /*#a1dda1; #c7ebc7; #ceff99;  #2d862d;  white*/
-       color: black;
+        text-align: center;
+        border-width: 1px;
+        /*  background-image: url("/images/1225150901c.jpg"); */
+        background-color: white; /*#a1dda1; #c7ebc7; #ceff99;  #2d862d;  white*/
+        color: black;
     }
- 
-.kfb_form
-{
-    
-        max-width: 900px; /*900px;*/
-        font-size: 12pt;
-        background-color: #ffffff; /* #ffffff;*/
-        border: solid;
-        border-width: 0px; /*1px*/
-        text-align: left;
-        margin-top: 100px;
-        padding: 10px;
-        box-shadow: 5px 5px 5px #DE2626; /*#DE2626*/
-    
-}
-    
-    
-    /* Added by Neal */ 
-    .pageblock
+
+
+    .todo
     {
-        max-width: 900px; /*900px;*/
-        font-size: 12pt;
-        background-color: #ffffff; /*#ffffff;*/
-        border: solid;
-        border-width: 1px; /*1px;*/
-        text-align: left;
-        margin-top: 10px;
-        padding: 10px;
-        box-shadow: 5px 5px 5px orange; /*#DE2626*/
+        font-family: "Calibri", sans-serif;
+        font-size: 5px;
+        color: #053eff;
+        font-style: italic;
+
+        /*display: none;*/
+
     }
-    
+
+    p.todo:hover
+    {
+        font-size: 20px; !important;
+    }
+
+
+    .kfb_topmenubar
+        {
+            background-color: #7a43b6; /* #004d00; */
+            padding: 10px;
+        color: orange; !important;
+            box-shadow:  2px 2px 3px #DE2626; /*#DE2626;*/
+        }
+
+
+
 
     
-    
-    /* Added by Neal */ 
+    .kfb_topten
+    {
+        max-width: 500px;
+        background-color: lightyellow;
+    }
+
+    .kfb_top10editbox
+    {
+        background-color: lightyellow;
+        max-width: 600px;
+        box-shadow: 2px 2px 5px darkgrey inset;  !important;
+    }
+        /* Added by Neal */
     .moreinfo
     {
-       
-        
-    }
-    
-    
-    #page
-    {
-        max-width: 900px; /*900px;*/
-        font-size: 12pt;
-        background-color: #ffffff; /*#ffffff;*/
-        border: solid;
-        border-width: 1px;
-        text-align: left;
-        margin-top: 10px;
-        padding: 10px;
-        box-shadow: 5px 5px 5px #DE2626; /*#DE2626*/
-    }
-    
-    .kfb_logo
-    {
-       
-        border-width: 1px;
-        /* box-shadow: 2px 2px 2px #DE2626 */
+
+
     }
 
 
-p, ul, ol, table
-    {
-    color: black;
-    }
-table, th, td {
-   border: 1px solid black;
-   padding: 5px
-}    
 
-    .kfb_background
-   {
-         background-color: #FFE3BD;/*  #FFE3BD;*/ /*#FFC559*/;  /*#FF9500*/; /*#FFC559*/; /*#FFD659;*/ /*#FFC259;*/
-/       /* background-image: url("/images/1225150901c.jpg");*/
-      
-   }
-    
 
-.kfb_form
+
+
+.ui-dialog
 {
-    
-        max-width: 900px;
-        font-size: 12pt;
-        background-color: #ffffff;
-        border: solid;
-        border-width: 1px;
-        text-align: left;
-        margin-top: 100px;
-        padding: 10px;
-        box-shadow: 5px 5px 5px #DE2626; /* #DE2626 */
-    
+    background-color:#585858;
+    border-radius:5px;
+    box-shadow: 2px 2px 10px 2px #424242;
+    position:relative;
+    padding:0px;
+    display: none; !important;
+
+    /*width:600px; !important;*/
+    /*height:330px; !important;*/
+    /*margin-top:100px;*/
+
 }
 
 
-
-
-
-
-
-/*.kfb_themes
+.ui-dialog #close_login
 {
-    
-    
-    background-color: white;
+    position:absolute;
+    top:1px;
+    right:1px;
+    width:1px;
+    height:1px;
 }
-  
-  
-  
-  
-.kfb_map
+.ui-dialog p
 {
-    box-shadow: 2px 2px 2px #b3b3b3;
-    
+    margin-top:40px;
+    font-size:22px;
+    color:#E6E6E6;
 }
 
-.kfb_calendar
+.ui-dialog-content
 {
-    box-shadow: 2px 2px 2px #b3b3b3;
-    
+    background-color:#585858;
+
 }
-  
-
-    .kfb_paypal
-   {
-    text-align:center;
-    margin-top: 25px;
 
 
-    
-   }
-    
-  
-    .kfb_sidebar
-    {
-        background-color: white;
-       
-        margin-top: 10px;
-        box-shadow: 5px 5px 5px #DE2626;
-        border: solid;
-        border-width: 1px;
-        padding: 5px;
-    }
-    
-   
-    .kfb_topmenubar
-    {
-        background-color: gray;
-        border-width: 0px;
-        box-shadow:  1px 2px 3px #DE2626
-        
-        
-    }
-   
-   
-
-   
-            
-   h1
-   {
-    color: black;
-    }
-    
-    .kfb_fullpage
-    {
-        
-        background-color: orange;
-        border-width: 1px;
-        
-    }
-    
-    .kfb_title
-    {
-       text-align: center;
-       border-width: 1px;
-       
-       background-color: gray;
-       color: orange;
-    }
-
-.kfb_form
+.ui-dialog-titlebar
 {
-    
-        max-width: 900px;
-        font-size: 12pt;
-        background-color: #ffffff;
-        border: solid;
-        border-width: 1px;
-        text-align: left;
-        margin-top: 100px;
-        padding: 10px;
-        box-shadow: 5px 5px 5px #DE2626
-    
+
 }
-    
-    
-    
-    
-    #page
-    {
-        max-width: 900px;
-        font-size: 12pt;
-        background-color: #ffffff;
-        border: solid;
-        border-width: 1px;
-        text-align: left;
-        margin-top: 10px;
-        padding: 10px;
-        box-shadow: 5px 5px 5px #DE2626
-    }
-    
-    .kfb_logo
-    {
-       
-        border-width: 1px;
-        box-shadow: 2px 2px 2px #DE2626 *
-    }
-*/
+
+.ui-dialog-title
+{
+    color: #f5e79e;
+}
+
+.ui-widget-header
+{
+    border: 0px solid #aaaaaa;
+    background: #585858 url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x; */
+color: #222222;
+    font-weight: bold;
+
+
+}
+
+
+.ui-widget-content
+{
+    border: 0px solid #aaaaaa;
+    background: #585858;
+    color: #222222;
+    display: none;
+}
+.ui-dialog #login
+{
+    /*width:250px;*/
+    /*height:40px;*/
+    margin-top:  50px;
+    border:2px solid silver;
+    border-radius:3px;
+    padding:5px;
+}
+.ui-dialog #password
+{
+    /*width:250px;*/
+    /*height:40px;*/
+    margin: 10px;
+    border:2px solid silver;
+    border-radius: 4px;
+    padding:5px;
+}
+
+.ui-dialog #dologin
+{
+    margin-left:-5px;
+    margin-top:10px;
+    width:140px;
+    /*height:40px;*/
+    /*border:none;*/
+    /*border-radius:3px;*/
+    /*color:#E6E6E6;*/
+    /*background-color:grey;*/
+    /*font-size:20px;*/
+
+    margin: 10px;
+    border: 2px solid silver;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+#loginform
+{
+    position:relative;
+    /*width:500px;*/
+    /*height:330px;*/
+    /*margin-top:100px;*/
+     background-color: #e6e6e6 /*#585858; */
+     /*border-radius:3px;*/
+    /*box-shadow:0px 0px 10px 0px #424242;*/
+    /*padding:10px;*/
+    /*box-sizing:border-box;*/
+    /*font-family:helvetica;*/
+;
+}
+#loginform #close_login
+{
+    position:absolute;
+    top:5px;
+    right:5px;
+    width:15px;
+    height:15px;
+}
+#loginform p
+{
+    margin-top:40px;
+    font-size:22px;
+    color:#E6E6E6;
+}
+#loginform #login
+{
+    width:250px;
+    height:40px;
+    border:2px solid silver;
+    border-radius:3px;
+    padding:5px;
+}
+#loginform #password
+{
+    margin-top:5px;
+    width:250px;
+    height:40px;
+    border:2px solid silver;
+    border-radius:3px;
+    padding:5px;
+}
+#loginform #dologin
+{
+    margin-left:-5px;
+    margin-top:10px;
+    width:250px;
+    height:40px;
+    border:none;
+    border-radius:3px;
+    color:#E6E6E6;
+    background-color:grey;
+    font-size:20px;
+}

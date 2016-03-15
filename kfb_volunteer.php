@@ -58,7 +58,7 @@
 						<!-- sidebar start -->
 						<!-- ================ -->
 						
-							<?php include "kfb_volunteer_sidebar.php" ?>
+						<?php include "kfb_volunteer_sidebar.php" ?>
 						
 						<!-- sidebar end -->
 

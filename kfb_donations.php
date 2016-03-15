@@ -1,4 +1,13 @@
-<?php include "kfb_head.php" ?>
+<?php
+if(!isset($_SESSION))
+{
+	session_start();
+}
+else
+{
+//	$sessionID = $
+}
+?><?php include "kfb_head.php" ?>
 
 <body class="no-trans   ">
 	
@@ -14,8 +23,38 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+	<link href="print.css" rel="stylesheet" media="print" type="text/css" />
+    <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.1.min.js" > </script>
+    <script type="text/javascript">
+		
+		function PrintElem(elem)
+        {
+            Popup($(elem).html());
+        }
 
+        function Popup(data)
+        {
+            var mywindow = window.open('', 'my div', 'height=400,width=600');
+            mywindow.document.write('<html><head><title>Top Ten Items</title>');
+            mywindow.document.write('<link rel="stylesheet" href="kfb_top10_print.css" media="print" type="text/css" />');
+            mywindow.document.write('</head><body >');
+			mywindow.document.write('<img src ="images/kfb_logo15-dropshadow5.png"><br><br>');
+			mywindow.document.write('Kent Food Bank');
+			mywindow.document.write('<pre>');
+            mywindow.document.write(data);
+			mywindow.document.write('</pre>');
+            mywindow.document.write('</body></html>');
+			
+			mywindow.document.close(); // necessary for IE >= 10
+            mywindow.focus(); // necessary for IE >= 10
 
+            mywindow.print();
+            mywindow.close();
+
+            return true;
+        }
+
+    </script>
 
 			<!-- main-container start -->
 			<!-- ================ -->
@@ -42,40 +81,52 @@
 		</div>
 		
         <div div id = id1 class = "pageblock">
-			<div id ="top10">
+			<div id ="donations/top 10 needed items">
 				
 				
 				<br id ="header-1">
 				<h1>Top 10 needed items</h1>
-				<ul>
-					<li>Soup-condensed and ready to eat</li>
-					<li>Canned vegetable</li>
-					<li>Canned tomato products</li>
-					<li>Canned fruit</li>
-					<li>Cannned proteins-SPAM, tuna, chicken</li>
-					<li>Ready to eat meals - chili, Chef Boyardee</li>
-					<li>Canned or bagged beans</li>
-					<li>Toiletries</li>
-					<li>Diapers and Formula</li>
-					<li>Office supplies - paper, pens, garbage bags </li>   
-				</ul><br>
-				
-				
+<!--				<ul>-->
+<!--					<li>Soup-condensed and ready to eat</li>-->
+<!--					<li>Canned vegetable</li>-->
+<!--					<li>Canned tomato products</li>-->
+<!--					<li>Canned fruit</li>-->
+<!--					<li>Cannned proteins-SPAM, tuna, chicken</li>-->
+<!--					<li>Ready to eat meals - chili, Chef Boyardee</li>-->
+<!--					<li>Canned or bagged beans</li>-->
+<!--					<li>Toiletries</li>-->
+<!--					<li>Diapers and Formula</li>-->
+<!--					<li>Office supplies - paper, pens, garbage bags </li>   -->
+<!--				</ul><br>-->
+
+<pre id= "topten" class="kfb_topten" >
+<?php include "kfb_topten.txt"; ?>
+</pre>
+
+			 <!--This line and the BUTTON will not be printed-->
+				<input type="button" value="Print List" onclick="PrintElem('#topten')" />
+				<br><br>
 					
-			</div>
-			
-				
-			<h1>Clothing Bank</h1>Accepts donations on M, T, W and F from 9 am - 2 pm of
+				<h3>Clothing Bank</h3>Accepts donations on T, W, and F from 10am - 12:30pm of
 				gently used men's, women's, children's, clothing along with small household items at
 				515 W. Harrison Street, Suite 107 
+			
+			</div>
         </div>
         
 		<div id = id2 class = "pageblock">
 			<div id ="sponsorship levels">
 				<br id ="header-2">
+				
 				<h1>Sponsorship Levels</h1>
-				<h2>Gold</h2>
-				<h3>$3,000 or $250 per month for a year</h3>
+				
+				<p>We are excited this year to provide you with a number of different options to support the Kent Food Bank Annual Breakfast with.
+				We have two different payment options, a one-time sponsorship payment or monthly installments. Both options	will make
+				a direct difference for families in need.</p>
+				
+			
+				<h3>Gold</h3>
+				<h4>$3,000 or $250 per month for a year</h4>
 				<ul id="gold">
 					<li>Logo and name recognition on printed materials</li>
 					<li>Logo and name recognition in annual report</li>
@@ -87,8 +138,8 @@
             </div>
 
 				
-				<h2>Silver</h2>
-				<h3>$1,500 or $125 per month for a year</h3>
+				<h3>Silver</h3>
+				<h4>$1,500 or $125 per month for a year</h4>
 				<ul id="silver">
 					<li>Logo and name recognition on printed materials</li>
 					<li>Name recogntion in annual report</li>
@@ -97,8 +148,8 @@
 					<li>Each table of Honor guest will receive 3 raffle tickets</li>  
 				</ul>
 				
-				<h2>Bronze</h2>
-				<h3>$1,000 or $85 per month for a year </h3>
+				<h3>Bronze</h3>
+				<h4>$1,000 or $85 per month for a year </h4>
 				<ul id="silver">
 					<li>Name recognition on printed materials </li>
 					<li>Name recogntion in annual report</li>

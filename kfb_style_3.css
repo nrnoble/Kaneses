@@ -1,4 +1,17 @@
 
+.column-left{ float: left; width: 15%; }
+.column-right{ float: right; width: 15%; }
+.column-center{ display: inline-block; width: 70%; }
+   /*Logo in menubar at the top of each page*/
+    .kfb_logo
+    {
+       /* kfb_logo_higher_res.png */
+        border-width: 0px;
+        width: auto;
+        height: 90px;
+        /* box-shadow: 2px 2px 2px #DE2626 */
+    }
+
 
 /*.services
    {
@@ -17,6 +30,7 @@ a:hover
      
     
     /*    color:blue;
+     *  
      *    font-size: 14pt;
      *    font-weight: bold;
     */
@@ -141,13 +155,13 @@ a:hover
         box-shadow: 5px 5px 5px #004d00; /*#DE2626*/
     }
     
-    .kfb_logo
+  /*  .kfb_logo
     {
        
         border-width: 1px;
-        /* box-shadow: 2px 2px 2px #DE2626 */
+        /* box-shadow: 2px 2px 2px #DE2626 
     }
-
+*/
 
 p, ul, ol, table
     {

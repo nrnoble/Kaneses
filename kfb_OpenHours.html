@@ -1,0 +1,60 @@
+<html>
+<header>
+<title>My test page </title>
+</header>
+ 
+<body>
+  
+  <h2>********************</h2>
+  <script language="JavaScript">
+  var hour = new Date();
+  var day = new Date();
+  
+  /* 1=Mondays/6=Saturday/7=Sunday hours of Operation for kent food bank. all locations are closed  */
+  if ( day.getDay() == 1 ||  day.getDay() == 6 ||  day.getDay() == 0) 
+  {
+    document.write("All locations are closed today. ");
+  }
+  
+  /*  2=Tuesday/3=Wednesday/5=Fridays Hours of operation for kent food bank.  */
+  else if ( day.getDay() == 2 || day.getDay() == 3 || day.getDay() == 5)
+  {
+    document.write("<h3>OPEN</h3> <br>");
+    document.write("Food Bank: 10am-1pm.<br>");
+    document.write("Clothing Bank: 10am- 12:30.<br>");
+    document.write("Food and Clothing Donations: 9am - 2pm.<br>");
+  }
+  
+  /* thursday hours of operation for kent food bank(Donations/ seniors (55+)) */
+  else  if ( day.getDay() == 4 )
+  {
+    document.write("<h3>OPEN</h3><br>");
+    document.write("Food and Clothing Donations: 9am - 2pm.<br>");
+    document.write("<h3>Open only to Seniors(55+)</h3>")
+    document.write("Food Bank and Clothing Bank: 10am - 11am<br>");
+    document.write(" Annex Food Bank: 10am - 1pm.<br>");
+  }
+  
+  else  /*if something is wrong  */
+  {
+    document.write("Something went wrong!");
+  }
+ 
+  /* remove the following in your live script. It is for testing */
+  document.write("<br>------for testing only------<br><br>")
+  document.write("The hour is: ")
+  document.write( hour.getHours() );
+  document.write("<br> ")
+  document.write(" The Day is : ")
+  document.write( day.getDay() );
+  document.write("<br><br>------for testing only------")
+  
+</script>
+ 
+<h2>********************</h2
+
+ 
+</body>
+</html>
+
+ 
